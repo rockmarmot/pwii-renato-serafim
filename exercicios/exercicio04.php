@@ -7,7 +7,8 @@
 <body>
 
     <form method="post">
-        Preço do produto: R$<input type="number" name="num1" required> <br><br>
+        Preço do produto: R$<input type="number" name="num1" required> 
+            <br><br>
 
 
         <input type="submit" value="Ok">
@@ -20,7 +21,7 @@
 
 
         $resulatado = ((($num1/100)*16)+$num1)/10;    
-        echo "O preço de uma das 10 parcelas do produto 16% mais caro é R$" . $resulatado . "<br>";  
+        echo "O preço de uma das 10 parcelas do produto 16% mais caro é R$" . $resulatado;  
     
 
     }

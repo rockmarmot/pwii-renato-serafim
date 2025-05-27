@@ -7,9 +7,12 @@
 <body>
 
     <form method="post">
-        Altura: <input type="number" name="num1" required> cm<br><br>
-        Largura: <input type="number" name="num2" required> cm<br><br>
-        Profundidade: <input type="number" name="num3" required> cm<br><br>
+        Altura: <input type="number" name="num1" required> cm
+            <br><br>
+        Largura: <input type="number" name="num2" required> cm
+            <br><br>
+        Profundidade: <input type="number" name="num3" required> cm
+            <br><br>
 
         <input type="submit" value="Ok">
 
@@ -22,7 +25,7 @@
         $num3 = $_POST["num3"];
 
         $resulatado = $num1 * $num2 * $num3;    
-        echo "O volume da caixa é " . $resulatado . " cm³<br>";  
+        echo "O volume da caixa é " . $resulatado . " cm³";  
     
 
     }
